@@ -1,0 +1,97 @@
+body {
+    background-color: #F3EAE3;
+}
+
+.container {
+    max-width: 600px;
+    max-height: 450px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font
+}
+
+img {
+    max-height: 450px;
+    border-radius: 5% 0% 0% 5%;
+}
+
+.attribution { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    position: fixed;
+    bottom: 3px;
+    color: hsl(228, 45%, 44%);
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0% 5% 5% 0%;
+    background-color: #FFFFFF;
+    min-width: 300px;
+}
+
+button {
+    margin: 0 30px 30px 30px;
+    border: none;
+    background-color: rgba(0, 124, 0, 0.835);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: .05rem;
+}
+
+.pricing {
+    display: flex;
+    align-items: center;
+}
+
+/* FONTS AND TEX */
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 20px 0 30px;
+}
+
+#perfume {
+    color: rgb(168, 168, 168);
+    padding-top: 10%;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+#product-name {
+    font-family: 'Cambo', serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.786);
+}
+
+#description {
+    color: rgb(168, 168, 168);
+    font-family: 'Roboto', sans-serif;
+}
+
+#now-price {
+    color: rgba(0, 112, 0, 0.835);
+    font-size: 40px;
+    font-family: 'Cambo', serif;
+    font-weight: bold;
+}
+
+#was-price {
+    color: rgb(177, 177, 177);
+    text-decoration: line-through;
+}
